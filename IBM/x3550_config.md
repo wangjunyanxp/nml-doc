@@ -1,24 +1,24 @@
+ï»¿
+#æ— äººå€¼å®ˆç³»ç»Ÿä¹‹ IBM System x3550é…ç½®
 
-#ÎŞÈËÖµÊØÏµÍ³Ö® IBM System x3550ÅäÖÃ
 
+### æœåŠ¡å™¨ä¸Šé…ç½®
 
-### ·şÎñÆ÷ÉÏÅäÖÃ
+1. ç¡®è®¤æœåŠ¡å™¨å…³æœºï¼Œå¹¶æ’å¥½ç”µæºï¼›ç”µæºçº¿æ’å¥½åé£æ‰‡ä¼šä¸€ç›´è½¬ï¼Œæ‰‹æ”¾åœ¨æ•£çƒ­å£å¯ä»¥æ„Ÿè§‰åˆ°æš–é£
+2. æ’å¥½ç®¡ç†å£ä¸eth1ä¸Šçš„ç½‘çº¿ï¼›ç½‘çº¿çš„è¿æ¥å¦‚å›¾1æ‰€ç¤ºï¼Œå…¶ä¸­å·¦è¾¹ç½‘çº¿ä¸ºeth1ï¼Œå³è¾¹ç½‘çº¿ä¸ºç®¡ç†å£ï¼Œéœ€è¦æ³¨æ„çš„æ˜¯ï¼Œç®¡ç†å£ç½‘çº¿æ’å¥½åç½‘å£å¤„çš„ç¯ä¾ç„¶æ˜¯ä¸ä¼šäº®çš„
+![Alt å›¾1](http://wiki.op.sdo.com/dokuwiki/lib/exe/fetch.php?media=%E8%BF%90%E7%BB%B4%E4%B8%AD%E5%BF%83:%E8%BF%90%E8%90%A5%E7%BB%B4%E6%8A%A4:ibm_system_x3550_1.jpg  "å›¾1 ç½‘çº¿è¿æ¥")
 
-1. È·ÈÏ·şÎñÆ÷¹Ø»ú£¬²¢²åºÃµçÔ´£»µçÔ´Ïß²åºÃºó·çÉÈ»áÒ»Ö±×ª£¬ÊÖ·ÅÔÚÉ¢ÈÈ¿Ú¿ÉÒÔ¸Ğ¾õµ½Å¯·ç
-2. ²åºÃ¹ÜÀí¿ÚÓëeth1ÉÏµÄÍøÏß£»ÍøÏßµÄÁ¬½ÓÈçÍ¼1ËùÊ¾£¬ÆäÖĞ×ó±ßÍøÏßÎªeth1£¬ÓÒ±ßÍøÏßÎª¹ÜÀí¿Ú£¬ĞèÒª×¢ÒâµÄÊÇ£¬¹ÜÀí¿ÚÍøÏß²åºÃºóÍø¿Ú´¦µÄµÆÒÀÈ»ÊÇ²»»áÁÁµÄ
-![Alt Í¼1](http://wiki.op.sdo.com/dokuwiki/lib/exe/fetch.php?media=%E8%BF%90%E7%BB%B4%E4%B8%AD%E5%BF%83:%E8%BF%90%E8%90%A5%E7%BB%B4%E6%8A%A4:ibm_system_x3550_1.jpg  "Í¼1 ÍøÏßÁ¬½Ó")
-
-### BIOSÉèÖÃ
-1. ¿ª»ú£¬°´F1¼ü½øÈëBIOSÉèÖÃ½çÃæ£¬ÈçÍ¼2ËùÊ¾
-![Alt Í¼2](http://wiki.op.sdo.com/dokuwiki/lib/exe/fetch.php?media=%E8%BF%90%E7%BB%B4%E4%B8%AD%E5%BF%83:%E8%BF%90%E8%90%A5%E7%BB%B4%E6%8A%A4:ibm_system_x3550_2.jpg  "Í¼2 BIOSÖ÷½çÃæ")
-2. ½øÈëAdvanced Setup½çÃæ£¬°´ÕÕÍ¼3ÏÔÊ¾½øĞĞÍêÈ«ÏàÍ¬µÄÅäÖÃ
-![Alt Í¼3](http://wiki.op.sdo.com/dokuwiki/lib/exe/fetch.php?media=%E8%BF%90%E7%BB%B4%E4%B8%AD%E5%BF%83:%E8%BF%90%E8%90%A5%E7%BB%B4%E6%8A%A4:ibm_system_x3550_3.jpg  "Í¼3 Advanced Setup½çÃæ")
-3. ½Ó×Å£¬½øÈë±¾½çÃæµ¹ÊıµÚ¶şĞĞµÄBaseBoard Management Controller(BMC) Setting£¬½øÈëºó°´ÕÕÍ¼4µÄ·½Ê½½øĞĞÍêÈ«ÏàÍ¬µÄÅäÖÃ
-![Alt Í¼4](http://wiki.op.sdo.com/dokuwiki/lib/exe/fetch.php?media=%E8%BF%90%E7%BB%B4%E4%B8%AD%E5%BF%83:%E8%BF%90%E8%90%A5%E7%BB%B4%E6%8A%A4:ibm_system_x3550_4.jpg  "Í¼4 BMCÉèÖÃ")
-4. ½øÈë±¾½çÃæµ¹ÊıµÚÈıĞĞµÄBMC Network Configuration½çÃæ£¬½«·şÎñÆ÷µÄÍøÂç²ÎÊıÌîĞ´ºÃ£¬¿ÉÒÔ²Î¿¼Í¼5µÄ·½Ê½½øĞĞÅäÖÃ£¨×¢£ºÍ¼5ÊÇ·şÎñÆ÷²ÉÓÃ¾²Ì¬µØÖ·µÄ·½Ê½£¬Èç¹û²ÉÓÃDHCP»ñÈ¡ÍøÂçĞÅÏ¢£¬ÔòÔÚDHCP ControlÑ¡ÏîÖĞÉèÖÃ³ÉDHCPÄ£Ê½£¬ÉèÖÃºÃÖ÷»úÃû¼´¿É£©
-![Alt Í¼5](http://wiki.op.sdo.com/dokuwiki/lib/exe/fetch.php?media=%E8%BF%90%E7%BB%B4%E4%B8%AD%E5%BF%83:%E8%BF%90%E8%90%A5%E7%BB%B4%E6%8A%A4:ibm_system_x3550_5.jpg  "Í¼5 ÍøÂçÅäÖÃ")
-5. ÍË»ØBIOSÖ÷½çÃæ£¬½øÈëDevices and I/O PortsÉèÖÃÖĞ£¬°´ÕÕÍ¼6µÄ·½Ê½½øĞĞÍêÈ«ÏàÍ¬µÄÉèÖÃ
-![Alt Í¼6](http://wiki.op.sdo.com/dokuwiki/lib/exe/fetch.php?media=%E8%BF%90%E7%BB%B4%E4%B8%AD%E5%BF%83:%E8%BF%90%E8%90%A5%E7%BB%B4%E6%8A%A4:ibm_system_x3550_7.jpg  "Í¼6 Devices and I/O PortsÅäÖÃ")
-6. ½øÈëµ±Ç°Ò³ÃæÀïµÄRemote Console RedirectionÉèÖÃÖĞ£¬°´ÕÕÍ¼7µÄ·½Ê½½øĞĞÍêÈ«ÏàÍ¬µÄÅäÖÃ
-![Alt Í¼7](http://wiki.op.sdo.com/dokuwiki/lib/exe/fetch.php?media=%E8%BF%90%E7%BB%B4%E4%B8%AD%E5%BF%83:%E8%BF%90%E8%90%A5%E7%BB%B4%E6%8A%A4:ibm_system_x3550_8.jpg  "Í¼7 Remote Console RedirectionÉèÖÃ")
-7. ±£´æÅäÖÃ²¢ÍË³ö¡£ÖÁ´Ë£¬ÒÑÍê³ÉÕû¸öÉèÖÃ
+### BIOSè®¾ç½®
+1. å¼€æœºï¼ŒæŒ‰F1é”®è¿›å…¥BIOSè®¾ç½®ç•Œé¢ï¼Œå¦‚å›¾2æ‰€ç¤º
+![Alt å›¾2](http://wiki.op.sdo.com/dokuwiki/lib/exe/fetch.php?media=%E8%BF%90%E7%BB%B4%E4%B8%AD%E5%BF%83:%E8%BF%90%E8%90%A5%E7%BB%B4%E6%8A%A4:ibm_system_x3550_2.jpg  "å›¾2 BIOSä¸»ç•Œé¢")
+2. è¿›å…¥Advanced Setupç•Œé¢ï¼ŒæŒ‰ç…§å›¾3æ˜¾ç¤ºè¿›è¡Œå®Œå…¨ç›¸åŒçš„é…ç½®
+![Alt å›¾3](http://wiki.op.sdo.com/dokuwiki/lib/exe/fetch.php?media=%E8%BF%90%E7%BB%B4%E4%B8%AD%E5%BF%83:%E8%BF%90%E8%90%A5%E7%BB%B4%E6%8A%A4:ibm_system_x3550_3.jpg  "å›¾3 Advanced Setupç•Œé¢")
+3. æ¥ç€ï¼Œè¿›å…¥æœ¬ç•Œé¢å€’æ•°ç¬¬äºŒè¡Œçš„BaseBoard Management Controller(BMC) Settingï¼Œè¿›å…¥åæŒ‰ç…§å›¾4çš„æ–¹å¼è¿›è¡Œå®Œå…¨ç›¸åŒçš„é…ç½®
+![Alt å›¾4](http://wiki.op.sdo.com/dokuwiki/lib/exe/fetch.php?media=%E8%BF%90%E7%BB%B4%E4%B8%AD%E5%BF%83:%E8%BF%90%E8%90%A5%E7%BB%B4%E6%8A%A4:ibm_system_x3550_4.jpg  "å›¾4 BMCè®¾ç½®")
+4. è¿›å…¥æœ¬ç•Œé¢å€’æ•°ç¬¬ä¸‰è¡Œçš„BMC Network Configurationç•Œé¢ï¼Œå°†æœåŠ¡å™¨çš„ç½‘ç»œå‚æ•°å¡«å†™å¥½ï¼Œå¯ä»¥å‚è€ƒå›¾5çš„æ–¹å¼è¿›è¡Œé…ç½®ï¼ˆæ³¨ï¼šå›¾5æ˜¯æœåŠ¡å™¨é‡‡ç”¨é™æ€åœ°å€çš„æ–¹å¼ï¼Œå¦‚æœé‡‡ç”¨DHCPè·å–ç½‘ç»œä¿¡æ¯ï¼Œåˆ™åœ¨DHCP Controlé€‰é¡¹ä¸­è®¾ç½®æˆDHCPæ¨¡å¼ï¼Œè®¾ç½®å¥½ä¸»æœºåå³å¯ï¼‰
+![Alt å›¾5](http://wiki.op.sdo.com/dokuwiki/lib/exe/fetch.php?media=%E8%BF%90%E7%BB%B4%E4%B8%AD%E5%BF%83:%E8%BF%90%E8%90%A5%E7%BB%B4%E6%8A%A4:ibm_system_x3550_5.jpg  "å›¾5 ç½‘ç»œé…ç½®")
+5. é€€å›BIOSä¸»ç•Œé¢ï¼Œè¿›å…¥Devices and I/O Portsè®¾ç½®ä¸­ï¼ŒæŒ‰ç…§å›¾6çš„æ–¹å¼è¿›è¡Œå®Œå…¨ç›¸åŒçš„è®¾ç½®
+![Alt å›¾6](http://wiki.op.sdo.com/dokuwiki/lib/exe/fetch.php?media=%E8%BF%90%E7%BB%B4%E4%B8%AD%E5%BF%83:%E8%BF%90%E8%90%A5%E7%BB%B4%E6%8A%A4:ibm_system_x3550_7.jpg  "å›¾6 Devices and I/O Portsé…ç½®")
+6. è¿›å…¥å½“å‰é¡µé¢é‡Œçš„Remote Console Redirectionè®¾ç½®ä¸­ï¼ŒæŒ‰ç…§å›¾7çš„æ–¹å¼è¿›è¡Œå®Œå…¨ç›¸åŒçš„é…ç½®
+![Alt å›¾7](http://wiki.op.sdo.com/dokuwiki/lib/exe/fetch.php?media=%E8%BF%90%E7%BB%B4%E4%B8%AD%E5%BF%83:%E8%BF%90%E8%90%A5%E7%BB%B4%E6%8A%A4:ibm_system_x3550_8.jpg  "å›¾7 Remote Console Redirectionè®¾ç½®")
+7. ä¿å­˜é…ç½®å¹¶é€€å‡ºã€‚è‡³æ­¤ï¼Œå·²å®Œæˆæ•´ä¸ªè®¾ç½®
