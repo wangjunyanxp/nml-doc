@@ -39,11 +39,11 @@
 
     ![alt text][8]
 
-1. 退回BIOS主界面，进入Devices and I/O Ports设置中，按照图9的方式进行完全相同的设置。
+1. 退回BIOS主界面，进入Devices and I/O Ports设置中，按照图9的方式进行完全相同的设置。然后，进入System MAC Addresses界面，并记录好网卡的MAC地址，这些地址将在DHCP模式设置网卡IP时起到重要作用。操作完毕后返回上一界面。
 
     ![alt text][9]
 
-1. 进入当前页面里的Remote Console Redirection设置中，按照图10的方式进行完全相同的配置。
+1. 进入当前页面里的Remote Console Redirection设置中，按照图10的方式进行相同的配置，但在最后一行的Remote Console Flow Control模式选为Disable。
 
     ![alt text][10]
 
