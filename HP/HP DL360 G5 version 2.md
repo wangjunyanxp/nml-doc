@@ -1,4 +1,5 @@
-﻿#HP DL 360 G5的Integrated Lights-Out 2设置
+﻿
+#HP DL 360 G5的Integrated Lights-Out 2设置
 
 
 ###主要配置三个东西，一个是网络、一个是账户、还有就是iLO的参数设置
