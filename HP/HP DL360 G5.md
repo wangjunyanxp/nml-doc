@@ -9,15 +9,15 @@
 
  * 选择Network的下拉菜单NIC and TCP/IP，如图1所示。
 
-    ![alt text][1]
+        ![alt text][1]
 
  * 参照图2的配置进行配置。需要注意的是，请记录下这里的MAC地址，未来当使用DHCP模式进行IP地址的设置时，将会使用到此参数。
 
-    ![alt text][2]
+        ![alt text][2]
 
  * 选择DNS/DHCP，如图3所示，将DHCP Enable设置为OFF模式（目前先支持了静态IP地址分配，在未来支持DHCP模式后可以使用DHCP来进行设置）。
 
-    ![alt text][3]
+        ![alt text][3]
 
 1. 然后进行账户的配置，如图4所示，选择User下的Add，进入帐号添加界面。
 
@@ -31,7 +31,7 @@
 
     ![alt text][6]
 
-选择Setting界面下的CLI，按照图7的模式进行相同的设置，注意波特率设置成115200。
+    选择Setting界面下的CLI，按照图7的模式进行相同的设置，注意波特率设置成115200。
 
     ![alt text][7]
 
