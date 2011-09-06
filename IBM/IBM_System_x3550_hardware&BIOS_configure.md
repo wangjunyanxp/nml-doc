@@ -35,7 +35,7 @@
 
     ![alt text][7]
 
-1. 设置帐号Enable，Username为ibm3550，Password设置成WDsd7258（因为BIOS设置界面里不识别符号，所以没有#），Privileged Limit为Administrator，如图8所示。**同时也务必注意，在当前页面里进行保存**。
+1. 设置帐号Enable，Username为ibm3550，Password设置成********（因为BIOS设置界面里不识别符号，所以没有#），Privileged Limit为Administrator，如图8所示。**同时也务必注意，在当前页面里进行保存**。
 
     ![alt text][8]
 
