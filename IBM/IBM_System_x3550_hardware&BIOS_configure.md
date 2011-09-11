@@ -28,7 +28,7 @@
 
     ![alt text][5]
 
-1. 进入本界面倒数第三行的BMC Network Configuration界面，填写Host Name为IBM3550，并将服务器的网络参数填写好，可以参考图6的方式进行配置（注：图6是服务器采用静态地址的方式，如果采用DHCP获取网络信息，则在DHCP Control选项中设置成DHCP模式），**特别需要注意的是，请务必在当前页面里进行保存**，之后返回上一界面。
+1. 进入本界面倒数第三行的BMC Network Configuration界面，填写Host Name为IBM3550，并将服务器的网络参数填写好，可以参考图6的方式进行配置（注：图6是服务器采用静态地址的方式，如果采用DHCP获取网络信息，则在DHCP Control选项中设置成DHCP模式），`特别需要注意的是，请务必在当前页面里进行保存`，之后返回上一界面。
 
     ![alt text][6]
 
@@ -36,7 +36,7 @@
 
     ![alt text][7]
 
-1. 设置帐号Enable，Username为ibm3550，Password设置成********（因为BIOS设置界面里不识别符号，所以没有#），Privileged Limit为Administrator，如图8所示。**同时也务必注意，在当前页面里进行保存**。
+1. 设置帐号Enable，Username为XXXXXXXX，Password设置成XXXXXXXX（因为BIOS设置界面里不识别符号，所以没有#），Privileged Limit为Administrator，如图8所示。`同时也务必注意，在当前页面里进行保存`。
 
     ![alt text][8]
 
