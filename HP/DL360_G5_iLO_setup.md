@@ -12,11 +12,11 @@
 
     ![alt text][1]
 
-    参照图2的配置进行配置。需要注意的是，**请记录下这里的MAC地址，未来当使用DHCP模式进行IP地址的设置时，将会使用到此参数**。
+    选择DNS/DHCP，如图2所示，将DHCP Enable设置为OFF模式（目前先支持了静态IP地址分配，在未来支持DHCP模式后可以使用DHCP来进行设置）。
 
     ![alt text][2]
 
-    2.2) 选择DNS/DHCP，如图3所示，将DHCP Enable设置为OFF模式（目前先支持了静态IP地址分配，在未来支持DHCP模式后可以使用DHCP来进行设置）。
+    2.2) 参照图3的配置进行配置。需要注意的是，**请记录下这里的MAC地址，未来当使用DHCP模式进行IP地址的设置时，将会使用到此参数**。
 
     ![alt text][3]
 
@@ -46,9 +46,9 @@
 
 [1]: http://wiki.op.sdo.com/dokuwiki/lib/exe/fetch.php?w=120&h=90&media=%E8%BF%90%E7%BB%B4%E4%B8%AD%E5%BF%83:%E8%BF%90%E8%90%A5%E7%BB%B4%E6%8A%A4:hpdl360g5_network_config.jpg "图1 网络设置菜单"
 
-[2]: http://wiki.op.sdo.com/dokuwiki/lib/exe/fetch.php?w=120&h=90&media=%E8%BF%90%E7%BB%B4%E4%B8%AD%E5%BF%83:%E8%BF%90%E8%90%A5%E7%BB%B4%E6%8A%A4:hpdl360g5_network_nic_tcpip.jpg "图2 配置网络地址等参数"
+[2]: http://wiki.op.sdo.com/dokuwiki/lib/exe/fetch.php?w=120&h=90&media=%E8%BF%90%E7%BB%B4%E4%B8%AD%E5%BF%83:%E8%BF%90%E8%90%A5%E7%BB%B4%E6%8A%A4:hpdl360g5_network_dnsdhcp.jpg "图2 关闭DHCP"
 
-[3]: http://wiki.op.sdo.com/dokuwiki/lib/exe/fetch.php?w=120&h=90&media=%E8%BF%90%E7%BB%B4%E4%B8%AD%E5%BF%83:%E8%BF%90%E8%90%A5%E7%BB%B4%E6%8A%A4:hpdl360g5_network_dnsdhcp.jpg "图3 关闭DHCP"
+[3]: http://wiki.op.sdo.com/dokuwiki/lib/exe/fetch.php?w=120&h=90&media=%E8%BF%90%E7%BB%B4%E4%B8%AD%E5%BF%83:%E8%BF%90%E8%90%A5%E7%BB%B4%E6%8A%A4:hpdl360g5_network_nic_tcpip.jpg "图3 配置网络地址等参数"
 
 [4]: http://wiki.op.sdo.com/dokuwiki/lib/exe/fetch.php?w=120&h=90&media=%E8%BF%90%E7%BB%B4%E4%B8%AD%E5%BF%83:%E8%BF%90%E8%90%A5%E7%BB%B4%E6%8A%A4:hpdl360g5_user.jpg "图4 账户设置"
 
