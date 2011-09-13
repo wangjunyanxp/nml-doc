@@ -53,7 +53,7 @@
 
     执行完这两条命令后，将会看到执行结果status和status_tag，当`status=0`; 且`status_tag=COMMAND COMPLIANT`后，代表固件升级成功，此时，由于服务器固件升级，与服务器管理IP的SSH连接将自动断开。固件将很快更新好，几秒之后再次SSH，即可连接上。
 
-    此外，现验证1U的服务器固件是`/map1/firmware`1，其他类型服务器尚未验证。
+    此外，现验证1U的服务器固件是`/map1/firmware1`，其他类型服务器尚未验证。
 
 + 方法2 通过iLO的IE界面进行固件升级
 

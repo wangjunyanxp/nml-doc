@@ -43,12 +43,11 @@
 
 
 
-
 [1]: http://images.proadm.net/hp/dl360g5/network_config.jpg "图1 网络设置菜单"
 
-[2]: http://images.proadm.net/hp/dl360g5/network_nic_tcp.jpg "图2 关闭DHCP"
+[2]: http://images.proadm.net/hp/dl360g5/network_dns_dhcp.jpg "图2 关闭DHCP"
 
-[3]: http://images.proadm.net/hp/dl360g5/network_dns_dhcp.jpg "图3 配置网络地址等参数"
+[3]: http://images.proadm.net/hp/dl360g5/network_nic_tcp.jpg "图3 配置网络地址等参数"
 
 [4]: http://images.proadm.net/hp/dl360g5/user.jpg "图4 账户设置"
 
