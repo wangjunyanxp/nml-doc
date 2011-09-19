@@ -5,31 +5,31 @@
 
 现在做的一个daemon如下：
 
-    http://10.132.17.108/ipmi/shell
-    http://10.132.17.108/ipmi/console
+    http://10.132.17.108/ipmi/shell/200/
+    http://10.132.17.108/ipmi/console/200/
 
 ###系统介绍
 
-1. 这个Web访问使用纯JavaScript实现，无需ActiveX与Java applet支持，兼容多种浏览器，包含IE 6、7、8，Firefox 5、6，Chrome 13、Opera 15、Safari 5.1等，在IE 9下无发正常使用，详情[见此][1]。系统实现原理是[shell in a box项目][2]。
++ 这个Web访问使用纯JavaScript实现，无需ActiveX与Java applet支持，兼容多种浏览器，包含IE 6、7、8，Firefox 5、6，Chrome 13、Opera 15、Safari 5.1等，在IE 9下无发正常使用，详情[见此][1]。系统实现原理是[shell in a box项目][2]。
 
-1. URL中的10.132.17.108代表的并不是被管理的服务器，而是代表提供这个shell in a box服务的服务器，现在在其上面配置的是管理服务器10.132.17.200，如下图所示。未来将进一步增加更多服务器并改进访问方式。
++ 该系统即用户登录至`shell in a box`服务器，使用该服务器提供的界面与服务来管理它所连接的多台服务器。在上面的URL里，10.132.17.108是`shell in a box`服务器，200代表被管理服务器10.132.17.200。系统原理图见下。
 
 ![alt text][3]
 
 ###/ipmi/shell简介
 
-http://10.132.17.108/ipmi/shell ，是一个纯粹的ipmi下的环境，可以直接执行ipmi命令。
+http://10.132.17.108/ipmi/shell/200/ ，是一个纯粹的ipmi下的环境，可以直接执行ipmi命令。
 
-+ help         查看可执行命令
-+ power status 服务器加电状态（每次重启时先进行查看）
-+ power soft   服务器关机
-+ power on     服务器开机
++ 命令`help`          查看可执行命令
++ 命令`power status`  服务器加电状态（每次重启时先进行查看）
++ 命令`power soft`    服务器关机
++ 命令`power on`      服务器开机
 
 ###/ipmi/console功能简介
 
-访问http://10.132.17.108/ipmi/console ，即连接到服务器的console口，看到与服务器屏幕相同的显示内容，可以看到服务器启动，BIOS信息等普通终端无法显示的信息。
++ 访问http://10.132.17.108/ipmi/console/200/ ，即连接到服务器的console口，看到与服务器屏幕相同的显示内容，可以看到服务器启动，BIOS信息等普通终端无法显示的信息。
 
-受到BMC硬件限制，同一时刻只能有一个连接访问console服务。
++ 受到BMC硬件限制，同一时刻只能有一个连接访问console服务。
 
 
 ###使用注意
@@ -39,7 +39,7 @@ http://10.132.17.108/ipmi/shell ，是一个纯粹的ipmi下的环境，可以�
 
 1. 正确退出系统的方法是先输入`Ctrl+d`，再退出浏览器。原因是每使用浏览器建立一个连接的同时，shell in a box服务器会创建一个进程，只有用这种方法，才会kill掉对应进程。输入`Ctrl+d`后，浏览器显示`Session closed`，出现`Connent`按钮。
 
-1. 因为ipmi功能包含console功能，在ipmi界面里输入`sol activate`命令即可进console界面；在console界面下，输入`~.`即可退出至ipmi界面。
+1. ipmi界面与console界面可以互相切换。在ipmi界面里输入`sol activate`命令即可进console界面；在console界面下，输入`~.`即可退出至ipmi界面。
 
 1. 当输入`sol activate`命令进入console界面时，浏览器提示`[SOL Session operational.  Use ~? for help]`，此时，需多敲几个回车才能进入到console界面。
 
