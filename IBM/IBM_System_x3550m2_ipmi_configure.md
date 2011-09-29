@@ -81,7 +81,7 @@
 
 [6]: http://images.proadm.net/ibm/x3550m2/enter_imm_setup.jpg  "图6 进入IMM设置"
 
-[7]: http://images.proadm.net/ibm/x3550m2/set_post_watchdog.jpg "图7 设置IMM
+[7]: http://images.proadm.net/ibm/x3550m2/set_post_watchdog.jpg "图7 设置IMM"
 
 [8]: http://images.proadm.net/ibm/x3550m2/set_net_conf.jpg "图8 设置网络参数"
 
