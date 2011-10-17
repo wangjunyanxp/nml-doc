@@ -54,5 +54,5 @@ http://10.132.17.108/ipmi/shell/200/ ，是一个纯粹的ipmi下的环境，可
 
 [1]: http://code.google.com/p/shellinabox/issues/detail?id=118&q=ie9
 [2]: http://code.google.com/p/shellinabox/
-[3]: http://images.proadm.net/shell_in_a_box_system.jpg "图1 系统结构"
+[3]: http://images.proadm.net/shell_in_a_box_system/shell_in_a_box_system.jpg "图1 系统结构"
 
