@@ -1,5 +1,5 @@
 ﻿
-##安装文件包ipmitool工具`OpenIPMI-tools`
+##安装文件包ipmitool工具OpenIPMI-tools
     yum -y install ipmitool
     apt-get install ipmitool
 
