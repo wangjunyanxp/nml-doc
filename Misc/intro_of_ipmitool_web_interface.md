@@ -10,11 +10,11 @@
 
 ###系统介绍
 
-+ 这个Web访问使用纯JavaScript实现，无需ActiveX与Java applet支持，兼容多种浏览器，包含IE 6、7、8，Firefox 5、6，Chrome 13、Opera 15、Safari 5.1等，在IE 9下无发正常使用，详情[见此][1]。系统实现原理是[shell in a box项目][2]。
++ 这个Web访问使用纯JavaScript实现，无需ActiveX与Java applet支持，兼容多种浏览器，包含IE 6、7、8，Firefox 5、6，Chrome 13、Opera 15、Safari 5.1等，在IE 9需要在Compatibility Mode模式下可以正常使用，兼容性测试见下表格。系统实现原理是[shell in a box项目][1]。
 
 + 该系统即用户登录至`shell in a box`服务器，使用该服务器提供的界面与服务来管理它所连接的多台服务器。在上面的URL里，10.132.17.108是`shell in a box`服务器，200代表被管理服务器10.132.17.200。系统原理图见下。
 
-    ![alt text][3]
+    ![alt text][2]
 
 ###/ipmi/shell简介
 
@@ -51,8 +51,60 @@ http://10.132.17.108/ipmi/shell/200/ ，是一个纯粹的ipmi下的环境，可
 
 1. 再次强调，务必请输入`Ctrl+d`再关闭浏览器来退出系统！
 
+1. shell in a box浏览器兼容性测试见下
+    <table border="1">
+<tr>
+<td> </td>
+<td>http登 录</td>
+<td>~.</td>
+<td>Ctrl D</td>
+</tr>
+<tr>
+<td>IE 6</td>
+<td>Y</td>
+<td>Y</td>
+<td>Y</td>
+</tr>
+<tr>
+<td>IE 7</td>
+<td>Y</td>
+<td>Y</td>
+<td>Y</td>
+</tr>
+<tr>
+<td>IE 8</td>
+<td>Y</td>
+<td>Y</td>
+<td>Y</td>
+</tr>
+<tr>
+<td>IE 9</td>
+<td>Compatibility</td>
+<td>Compatibility</td>
+<td>Compatibility</td>
+</tr>
+<tr>
+<td>Chrome 13</td>
+<td>Y</td>
+<td>Y</td>
+<td>Y</td>
+</tr>
+<tr>
+<td>Firefox 6</td>
+<td>Y</td>
+<td>Y</td>
+<td>Y</td>
+</tr>
+<tr>
+<td>Opera 11.51</td>
+<td>Y</td>
+<td>Y</td>
+<td>Y</td>
+</tr>
+</table>
 
-[1]: http://code.google.com/p/shellinabox/issues/detail?id=118&q=ie9
-[2]: http://code.google.com/p/shellinabox/
-[3]: http://images.proadm.net/shell_in_a_box_system/shell_in_a_box_system.jpg "图1 系统结构"
+
+
+[1]: http://code.google.com/p/shellinabox/
+[2]: http://images.proadm.net/shell_in_a_box_system/shell_in_a_box_system.jpg "图1 系统结构"
 
