@@ -1,91 +1,91 @@
+ï»¿
+#æ— äººå€¼å®ˆç³»ç»Ÿä¹‹ IBM System x366é…ç½®
 
-#ÎŞÈËÖµÊØÏµÍ³Ö® IBM System x366ÅäÖÃ
+é…ç½®ä¸»è¦åŒ…å«æœåŠ¡å™¨ç¡¬ä»¶é…ç½®ä¸BIOSè®¾ç½®ã€‚
 
-ÅäÖÃÖ÷Òª°üº¬·şÎñÆ÷Ó²¼şÅäÖÃÓëBIOSÉèÖÃ¡£
+### æœåŠ¡å™¨ç¡¬ä»¶é…ç½®
 
-### ·şÎñÆ÷Ó²¼şÅäÖÃ
+1. ç¡®è®¤æœåŠ¡å™¨å…³æœºï¼Œå¹¶æ’å¥½ç”µæºï¼›ç”µæºçº¿æ’å¥½åé£æ‰‡ä¼šä¸€ç›´è½¬ï¼Œæ‰‹æ”¾åœ¨æ•£çƒ­å£å¯ä»¥æ„Ÿè§‰åˆ°æš–é£ã€‚
 
-1. È·ÈÏ·şÎñÆ÷¹Ø»ú£¬²¢²åºÃµçÔ´£»µçÔ´Ïß²åºÃºó·çÉÈ»áÒ»Ö±×ª£¬ÊÖ·ÅÔÚÉ¢ÈÈ¿Ú¿ÉÒÔ¸Ğ¾õµ½Å¯·ç¡£
-
-1. ²åºÃ¹ÜÀí¿ÚÓëeth1ÉÏµÄÍøÏß£»ÍøÏßµÄÁ¬½ÓÈçÍ¼1ËùÊ¾£¬ÆäÖĞ×ó±ßÍøÏßÎªeth1£¬ÓÒ±ßÍøÏßÎª¹ÜÀí¿Ú£¬ĞèÒª×¢ÒâµÄÊÇ£¬¹ÜÀí¿ÚÍøÏß²åºÃºóÍø¿Ú´¦µÄµÆÒÀÈ»ÊÇ²»»áÁÁµÄ¡£
+1. æ’å¥½ç®¡ç†å£ä¸eth1ä¸Šçš„ç½‘çº¿ï¼›ç½‘çº¿çš„è¿æ¥å¦‚å›¾1æ‰€ç¤ºï¼Œå…¶ä¸­å·¦è¾¹ç½‘çº¿ä¸ºeth1ï¼Œå³è¾¹ç½‘çº¿ä¸ºç®¡ç†å£ï¼Œéœ€è¦æ³¨æ„çš„æ˜¯ï¼Œç®¡ç†å£ç½‘çº¿æ’å¥½åç½‘å£å¤„çš„ç¯ä¾ç„¶æ˜¯ä¸ä¼šäº®çš„ã€‚
 
     ![alt text][1]
 
 
-### BIOSÉèÖÃ
+### BIOSè®¾ç½®
 
-1. ¿ª»ú£¬°´F1¼ü½øÈëBIOSÉèÖÃ½çÃæ£¬ÈçÍ¼2ËùÊ¾¡£
+1. å¼€æœºï¼ŒæŒ‰F1é”®è¿›å…¥BIOSè®¾ç½®ç•Œé¢ï¼Œå¦‚å›¾2æ‰€ç¤ºã€‚
 
     ![alt text][2]
 
-1. ½øÈë`Advanced Setup`½çÃæ£¬°´ÕÕÍ¼3ÏÔÊ¾½øĞĞÍêÈ«ÏàÍ¬µÄÅäÖÃ¡£
+1. è¿›å…¥`Advanced Setup`ç•Œé¢ï¼ŒæŒ‰ç…§å›¾3æ˜¾ç¤ºè¿›è¡Œå®Œå…¨ç›¸åŒçš„é…ç½®ã€‚
 
     ![alt text][3]
 
-1. ½øÈë±¾½çÃæµÄ`CPU Options`£¬½«`Intel Virtualization Technlogy`ÉèÖÃ³ÉEnable(Ò»°ãÄ¬ÈÏenable£¬µ«ÇëÑéÖ¤Ò»ÏÂ)£¬ÈçÍ¼4ËùÊ¾£¬È»ºó·µ»ØÉÏÒ»½çÃæ¡£
+1. è¿›å…¥æœ¬ç•Œé¢çš„`CPU Options`ï¼Œå°†`Intel Virtualization Technlogy`è®¾ç½®æˆEnable(ä¸€èˆ¬é»˜è®¤enableï¼Œä½†è¯·éªŒè¯ä¸€ä¸‹)ï¼Œå¦‚å›¾4æ‰€ç¤ºï¼Œç„¶åè¿”å›ä¸Šä¸€ç•Œé¢ã€‚
 
     ![alt text][4]
 
-1. ½Ó×Å£¬½øÈëµ¹ÊıµÚ¶şĞĞµÄ`Baseboard Management Controller(BMC) Settings`£¬½øÈëºó°´ÕÕÍ¼5µÄ·½Ê½½øĞĞÍêÈ«ÏàÍ¬µÄÅäÖÃ¡£
+1. æ¥ç€ï¼Œè¿›å…¥å€’æ•°ç¬¬äºŒè¡Œçš„`Baseboard Management Controller(BMC) Settings`ï¼Œè¿›å…¥åæŒ‰ç…§å›¾5çš„æ–¹å¼è¿›è¡Œå®Œå…¨ç›¸åŒçš„é…ç½®ã€‚
 
     ![alt text][5]
 
-1. ½øÈë±¾½çÃæµ¹ÊıµÚÈıĞĞµÄ`BMC Network Configuration`½çÃæ£¬ÌîĞ´`Host Name`ÎªIBM366£¬²¢½«·şÎñÆ÷µÄÍøÂç²ÎÊıÌîĞ´ºÃ£¬¿ÉÒÔ²Î¿¼Í¼6µÄ·½Ê½½øĞĞÅäÖÃ£¨×¢£ºÍ¼6ÊÇ·şÎñÆ÷²ÉÓÃ¾²Ì¬µØÖ·µÄ·½Ê½£¬Èç¹û²ÉÓÃDHCP»ñÈ¡ÍøÂçĞÅÏ¢£¬ÔòÔÚDHCP ControlÑ¡ÏîÖĞÉèÖÃ³ÉDHCPÄ£Ê½£©£¬`ÌØ±ğĞèÒª×¢ÒâµÄÊÇ£¬ÇëÎñ±ØÔÚµ±Ç°Ò³ÃæÀï½øĞĞ±£´æ`£¬Ö®ºó·µ»ØÉÏÒ»½çÃæ¡£
+1. è¿›å…¥æœ¬ç•Œé¢å€’æ•°ç¬¬ä¸‰è¡Œçš„`BMC Network Configuration`ç•Œé¢ï¼Œå¡«å†™`Host Name`ä¸ºIBM366ï¼Œå¹¶å°†æœåŠ¡å™¨çš„ç½‘ç»œå‚æ•°å¡«å†™å¥½ï¼Œå¯ä»¥å‚è€ƒå›¾6çš„æ–¹å¼è¿›è¡Œé…ç½®ï¼ˆæ³¨ï¼šå›¾6æ˜¯æœåŠ¡å™¨é‡‡ç”¨é™æ€åœ°å€çš„æ–¹å¼ï¼Œå¦‚æœé‡‡ç”¨DHCPè·å–ç½‘ç»œä¿¡æ¯ï¼Œåˆ™åœ¨DHCP Controlé€‰é¡¹ä¸­è®¾ç½®æˆDHCPæ¨¡å¼ï¼‰ï¼Œ`ç‰¹åˆ«éœ€è¦æ³¨æ„çš„æ˜¯ï¼Œè¯·åŠ¡å¿…åœ¨å½“å‰é¡µé¢é‡Œè¿›è¡Œä¿å­˜`ï¼Œä¹‹åè¿”å›ä¸Šä¸€ç•Œé¢ã€‚
 
     ![alt text][6]
 
-1. ½øÈë`User Account Setting`ÉèÖÃ£¬Ñ¡ÔñUserID 2 USERID£¬ÈçÍ¼7ËùÊ¾¡£
+1. è¿›å…¥`User Account Setting`è®¾ç½®ï¼Œé€‰æ‹©UserID 2 USERIDï¼Œå¦‚å›¾7æ‰€ç¤ºã€‚
 
     ![alt text][7]
 
-1. ÉèÖÃÕÊºÅEnable£¬UsernameÎªUSERID£¬PasswordÉèÖÃ³ÉPASSW0RD£¬Õâ¸öÊÇIBMÄ¬ÈÏµÄÓÃ»§ÃûÃÜÂë£¬ÃÜÂëÖĞµÄ0ÊÇÊı×Ö0£¬²»ÊÇ×ÖÄ¸o¡£`Privileged Limit`Îª`Administrator`£¬ÈçÍ¼8ËùÊ¾¡£`Í¬Ê±Ò²Îñ±Ø×¢Òâ£¬ÔÚµ±Ç°Ò³ÃæÀï½øĞĞ±£´æ`¡£
+1. è®¾ç½®å¸å·Enableï¼ŒUsernameä¸ºUSERIDï¼ŒPasswordè®¾ç½®æˆPASSW0RDï¼Œè¿™ä¸ªæ˜¯IBMé»˜è®¤çš„ç”¨æˆ·åå¯†ç ï¼Œå¯†ç ä¸­çš„0æ˜¯æ•°å­—0ï¼Œä¸æ˜¯å­—æ¯oã€‚`Privileged Limit`ä¸º`Administrator`ï¼Œå¦‚å›¾8æ‰€ç¤ºã€‚`åŒæ—¶ä¹ŸåŠ¡å¿…æ³¨æ„ï¼Œåœ¨å½“å‰é¡µé¢é‡Œè¿›è¡Œä¿å­˜`ã€‚
 
     ![alt text][8]
 
-1. ÍË»ØBIOSÖ÷½çÃæ£¬½øÈë`Devices and I/O Ports`ÉèÖÃÖĞ£¬°´ÕÕÍ¼9µÄ·½Ê½½øĞĞÍêÈ«ÏàÍ¬µÄÉèÖÃ¡£È»ºó£¬½øÈë`System MAC Addresses`½çÃæ£¬²¢¼ÇÂ¼ºÃÍø¿¨µÄMACµØÖ·£¬ÕâĞ©µØÖ·½«ÔÚDHCPÄ£Ê½ÉèÖÃÍø¿¨IPÊ±Æğµ½ÖØÒª×÷ÓÃ¡£²Ù×÷Íê±Ïºó·µ»ØÉÏÒ»½çÃæ¡£
+1. é€€å›BIOSä¸»ç•Œé¢ï¼Œè¿›å…¥`Devices and I/O Ports`è®¾ç½®ä¸­ï¼ŒæŒ‰ç…§å›¾9çš„æ–¹å¼è¿›è¡Œå®Œå…¨ç›¸åŒçš„è®¾ç½®ã€‚ç„¶åï¼Œè¿›å…¥`System MAC Addresses`ç•Œé¢ï¼Œå¹¶è®°å½•å¥½ç½‘å¡çš„MACåœ°å€ï¼Œè¿™äº›åœ°å€å°†åœ¨DHCPæ¨¡å¼è®¾ç½®ç½‘å¡IPæ—¶èµ·åˆ°é‡è¦ä½œç”¨ã€‚æ“ä½œå®Œæ¯•åè¿”å›ä¸Šä¸€ç•Œé¢ã€‚
 
     ![alt text][9]
 
-1. ½øÈëµ±Ç°Ò³ÃæÀïµÄ`Remote Console Redirection`ÉèÖÃÖĞ£¬°´ÕÕÍ¼10µÄ·½Ê½½øĞĞÏàÍ¬µÄÅäÖÃ£¬µ«ÔÚ×îºóÒ»ĞĞµÄ`Remote Console Flow Control`Ä£Ê½Ñ¡ÎªDisable¡£
+1. è¿›å…¥å½“å‰é¡µé¢é‡Œçš„`Remote Console Redirection`è®¾ç½®ä¸­ï¼ŒæŒ‰ç…§å›¾10çš„æ–¹å¼è¿›è¡Œç›¸åŒçš„é…ç½®ï¼Œä½†åœ¨æœ€åä¸€è¡Œçš„`Remote Console Flow Control`æ¨¡å¼é€‰ä¸ºDisableã€‚
 
     ![alt text][10]
 
-1. ±£´æÅäÖÃ²¢ÍË³ö¡£ÖÁ´Ë£¬ÒÑÍê³ÉBIOSÉèÖÃ¡£
+1. ä¿å­˜é…ç½®å¹¶é€€å‡ºã€‚è‡³æ­¤ï¼Œå·²å®ŒæˆBIOSè®¾ç½®ã€‚
 
-### IPMIÁ¬½Ó
+### IPMIè¿æ¥
 
-IBM x366²»Ö§³ÖIPMI2.0£¬×î¸ßÖ§³ÖIPMI1.5£¬ÔÚ¸ÃÄ£Ê½ÏÂ£¬²»ÄÜÓÃipmitool -I lanplusÑ¡Ïî¡£ÁíÍâ£¬ÔÚÅäÖÃSOLÊ±Ê¹ÓÃisol¡£
+IBM x366ä¸æ”¯æŒIPMI2.0ï¼Œæœ€é«˜æ”¯æŒIPMI1.5ï¼Œåœ¨è¯¥æ¨¡å¼ä¸‹ï¼Œä¸èƒ½ç”¨ipmitool -I lanplusé€‰é¡¹ã€‚å¦å¤–ï¼Œåœ¨é…ç½®SOLæ—¶ä½¿ç”¨isolã€‚
 
-¾ÙÀıÀ´Ëµ
+ä¸¾ä¾‹æ¥è¯´
 
-    ipmitool -U USERID -H 10.241.31.100 -P PASSW0RD isol set non-volatile-bit-rate 115.2    ÉèÖÃ²¨ÌØÂÊ
-    ipmitool -U USERID -H 10.241.31.100 -P PASSW0RD isol set volatile-bit-rate 115.2        ÉèÖÃ²¨ÌØÂÊ
-    ipmitool -U USERID -H 10.241.31.100 -P PASSW0RD isol activate      ¼¤»îSOLÁ¬½Ó
-    ipmitool -U USERID -H 10.241.31.100 -P PASSW0RD isol deactivate    ¹Ø±ÕsolÁ¬½Ó
-    ipmitool -U USERID -H 10.241.31.100 -P PASSW0RD power status     ²é¿´·şÎñÆ÷¼ÓµçÇé¿ö
-    ipmitool -U USERID -H 10.241.31.100 -P PASSW0RD power off        Ç¿ÖÆ¹Ø»ú£¨Ïàµ±ÓÚ°ÎµçÔ´£©
-    ipmitool -U USERID -H 10.241.31.100 -P PASSW0RD power on         ·şÎñÆ÷¼Óµç
-    ipmitool -U USERID -H 10.241.31.100 -P PASSW0RD power cycle      ·şÎñÆ÷ÖØÆô
-
-
+    ipmitool -U USERID -H 10.241.31.100 -P PASSW0RD isol set non-volatile-bit-rate 115.2    è®¾ç½®æ³¢ç‰¹ç‡
+    ipmitool -U USERID -H 10.241.31.100 -P PASSW0RD isol set volatile-bit-rate 115.2        è®¾ç½®æ³¢ç‰¹ç‡
+    ipmitool -U USERID -H 10.241.31.100 -P PASSW0RD isol activate      æ¿€æ´»SOLè¿æ¥
+    ipmitool -U USERID -H 10.241.31.100 -P PASSW0RD isol deactivate    å…³é—­solè¿æ¥
+    ipmitool -U USERID -H 10.241.31.100 -P PASSW0RD power status     æŸ¥çœ‹æœåŠ¡å™¨åŠ ç”µæƒ…å†µ
+    ipmitool -U USERID -H 10.241.31.100 -P PASSW0RD power off        å¼ºåˆ¶å…³æœºï¼ˆç›¸å½“äºæ‹”ç”µæºï¼‰
+    ipmitool -U USERID -H 10.241.31.100 -P PASSW0RD power on         æœåŠ¡å™¨åŠ ç”µ
+    ipmitool -U USERID -H 10.241.31.100 -P PASSW0RD power cycle      æœåŠ¡å™¨é‡å¯
 
 
-[1]: http://images.proadm.net/ibm/x3550/cable_plugin.jpg "Í¼1 ÍøÏßÁ¬½Ó"
 
-[2]: http://images.proadm.net/ibm/x3550/bios_setup.jpg  "Í¼2 BIOSÖ÷½çÃæ"
 
-[3]: http://images.proadm.net/ibm/x3550/advanced_setup.jpg   "Í¼3 Advanced Setup½çÃæ"
+[1]: http://images.proadm.net/ibm/x3550/cable_plugin.jpg "å›¾1 ç½‘çº¿è¿æ¥"
 
-[4]: http://images.proadm.net/ibm/x3550/cpu_vt_enable.jpg "Í¼4 CPU ĞéÄâ¹¦ÄÜEnable"
+[2]: http://images.proadm.net/ibm/x3550/bios_setup.jpg  "å›¾2 BIOSä¸»ç•Œé¢"
 
-[5]: http://images.proadm.net/ibm/x3550/bmc_setting.jpg  "Í¼5 BMCÉèÖÃ"
+[3]: http://images.proadm.net/ibm/x3550/advanced_setup.jpg   "å›¾3 Advanced Setupç•Œé¢"
 
-[6]: http://images.proadm.net/ibm/x3550/bmc_network_setup.jpg  "Í¼6 ÍøÂçÅäÖÃ"
+[4]: http://images.proadm.net/ibm/x3550/cpu_vt_enable.jpg "å›¾4 CPU è™šæ‹ŸåŠŸèƒ½Enable"
 
-[7]: http://images.proadm.net/ibm/x3550/bmc_account.jpg "Í¼7 BMCÕÊºÅÉèÖÃ"
+[5]: http://images.proadm.net/ibm/x3550/bmc_setting.jpg  "å›¾5 BMCè®¾ç½®"
 
-[8]: http://images.proadm.net/ibm/x3550/bmc_account_add.jpg "Í¼8 ÉèÖÃÕÊºÅUserID2"
+[6]: http://images.proadm.net/ibm/x3550/bmc_network_setup.jpg  "å›¾6 ç½‘ç»œé…ç½®"
 
-[9]: http://images.proadm.net/ibm/x3550/serialport_setup.jpg  "Í¼9 Devices and I/O PortsÅäÖÃ"
+[7]: http://images.proadm.net/ibm/x3550/bmc_account.jpg "å›¾7 BMCå¸å·è®¾ç½®"
 
-[10]: http://images.proadm.net/ibm/x3550/remote_console_redirection.jpg  "Í¼10 Remote Console RedirectionÉèÖÃ"
+[8]: http://images.proadm.net/ibm/x3550/bmc_account_add.jpg "å›¾8 è®¾ç½®å¸å·UserID2"
+
+[9]: http://images.proadm.net/ibm/x3550/serialport_setup.jpg  "å›¾9 Devices and I/O Portsé…ç½®"
+
+[10]: http://images.proadm.net/ibm/x3550/remote_console_redirection.jpg  "å›¾10 Remote Console Redirectionè®¾ç½®"
